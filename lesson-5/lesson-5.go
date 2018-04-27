@@ -35,8 +35,6 @@ func main() {
 		_, ok := <- ic 
 		fmt.Println("this is opened?: ", ok)
 
-
-
 }
 
 func goroutine1() {
