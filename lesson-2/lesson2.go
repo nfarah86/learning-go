@@ -60,6 +60,10 @@ func getTwo(s []int, num1, num2 int) []int {
 	//return s[num1, num2]
 
 	//correct way: use copy
+
+	var a [3]string
+	a[0] = "Hello"
+
 	s2 := make([]int, num2-num1)
 	copy(s2, s[num1:num2])
 	return s

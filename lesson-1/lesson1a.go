@@ -55,7 +55,6 @@ func  caseStatement2(i1 int)(int) {
 		fallthrough
 	case 5:
 		fmt.Println ("x is 5")
-	
 	}
 	return i1
 }

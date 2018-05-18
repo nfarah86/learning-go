@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package food ; 
+
+message foodTypes{
+    string fruit = 1;
+    string vegetable = 2; 
+    string carbs = 3; 
+    string protein = 4;
+    string desert = 5;
+}
